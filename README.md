@@ -1,2 +1,2 @@
-# timezone
+# Timezone
 Just enjoying the moments
