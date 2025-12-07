@@ -1,11 +1,5 @@
-// PWA
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('data:application/javascript,self.skipWaiting()').catch(()=>{});
-}
-
 feather.replace();
 
-// Wallpapers
 const wallpapers = {
   "America/New_York":["https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&w=2000","https://images.pexels.com/photos/290386/pexels-photo-290386.jpeg?auto=compress&cs=tinysrgb&w=2000","https://images.pexels.com/photos/77171/pexels-photo-77171.jpeg?auto=compress&cs=tinysrgb&w=2000","https://images.pexels.com/photos/1485789/pexels-photo-1485789.jpeg?auto=compress&cs=tinysrgb&w=2000"],
   "America/Los_Angeles":["https://images.pexels.com/photos/34975692/pexels-photo-34975692.jpeg?auto=compress&w=2000","https://images.pexels.com/photos/208819/pexels-photo-208819.jpeg?auto=compress&cs=tinysrgb&w=2000","https://images.pexels.com/photos/1078986/pexels-photo-1078986.jpeg?auto=compress&cs=tinysrgb&w=2000","https://images.pexels.com/photos/358136/pexels-photo-358136.jpeg?auto=compress&cs=tinysrgb&w=2000"],
